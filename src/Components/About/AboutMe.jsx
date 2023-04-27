@@ -60,22 +60,10 @@ const AboutMe = () => {
         <div className="flex space-between">
           <div className="bs-about-me">
             <p>
-              My Name is Amos Machora! I am a professional frontend web
-              developer.
+              My Name is Kelly Kiiru. I am full stack dev.
             </p>
             <p>
-              I have over 4 years learning + working experience in developing
-              clean, maintainable, responsive and fast UI .
-            </p>
-            <p>
-              I`m a positive minded and eager to learn individual who works
-              fantastically well under pressure to produce highly credible
-              results.
-            </p>
-            <p>
-              I am very passionate about the field of programming in general
-              with little experience in backend development using Java and its
-              Spring framework but backend is not my focus as at now.
+              I derive satisfaction from identifying problems and solving them with code.
             </p>
           </div>
           <p className="capitalize bluish arrange">

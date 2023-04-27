@@ -45,7 +45,7 @@ const StartPage = () => {
 
   useEffect(() => {
     setSmallScreen(false);
-    document.title = `Amos™ Freelancer`;
+    document.title = `Kelly™ Dev`;
     window.scrollTo(0, 0);
   }, [setSmallScreen]);
 

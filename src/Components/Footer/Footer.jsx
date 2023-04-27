@@ -461,9 +461,9 @@ c49 -25 54 -68 15 -114 -43 -52 -104 -39 -104 22 0 31 37 107 52 107 5 0 22
         </div>
       </div>
       <div className="footer-bottom flex space-between">
-        <p className="bluish"> © 2022 Amos. All rights reversed</p>
+        <p className="bluish"> © 2023 Kelly. All rights reversed</p>
         <div className="flex">
-          <a href="mailto:amosmachora13@gmail.com">
+          <a href="mailto:infowithkiiru@gmail.com">
             <svg
               version="1.0"
               xmlns="http://www.w3.org/2000/svg"

@@ -39,8 +39,8 @@ const Contact = () => {
               I will reply as soon as possible. Guarantee a response within
               hours!
             </p>
-            <a href="mailto:amosmachora13@gmail.com" className="gmail">
-              amosmachora13@gmail.com
+            <a href="mailto:infowithkiiru@gmail.com" className="gmail">
+            infowithkiiru@gmail.com
             </a>
           </div>
           <div>
