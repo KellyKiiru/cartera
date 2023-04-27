@@ -51,6 +51,9 @@ const Contact = () => {
               to you as soon as possible. The link to my profile is in the top
               right corner of this page.
             </p>
+            <a href="https://www.linkedin.com/in/kelly-kiiru-15a852231/" target="_blank" className="gmail">
+            Kelly Kiiru
+            </a>
           </div>
           <div>
             <p className="option-number">03</p>
@@ -138,7 +141,7 @@ const Contact = () => {
               </div>
               <p className="greyish-2">
                 Thanks for contacting me . I will reply as soon as possible.
-                Guarantee a response in less than 12 hours!
+                
               </p>
               <div
                 onClick={() => ResetFunction()}
