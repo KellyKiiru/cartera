@@ -15,9 +15,9 @@ import { pageVariantsIn } from "../../Framer";
 
 const StartPage = () => {
   const [slide, setSlide] = useState({
-    sub: "Frontend Web Developer",
-    h1: "I am a",
-    desc: "So you are looking for a web developer . I am an experienced web developer for all your development...",
+    sub: "Full Stack Web Dev",
+    h1: "Hi there! I am Kelly, a",
+    // desc: "So you are looking for a web developer . I am an experienced web developer for all your development...",
     linkTo: "about-me",
     img: DesktopSetup,
   });
@@ -28,7 +28,7 @@ const StartPage = () => {
   const whiteBannerAnimation = useAnimation();
 
   const slide1 = {
-    sub: "Frontend Web Developer",
+    sub: "Full Stack Web Dev",
     h1: "I am a",
     desc: "So you are looking for a web developer . I am an experienced web developer for all your development...",
     linkTo: "about-me",
@@ -36,16 +36,16 @@ const StartPage = () => {
   };
 
   const slide2 = {
-    sub: "Web Application Developer",
+    sub:"Data Science enthusiast",
     h1: "Im also a",
-    desc: "Web Applications should be fast, scalable and maintainable. Want to know how ?...",
+    desc: "Currently self coaching on DS and relevant technologies",
     linkTo: "portfolio",
     img: ManLookingAtComputer,
   };
 
   useEffect(() => {
     setSmallScreen(false);
-    document.title = `Kelly™ Dev`;
+    document.title = `Kelly™ dev`;
     window.scrollTo(0, 0);
   }, [setSmallScreen]);
 
@@ -87,7 +87,7 @@ const StartPage = () => {
     if (window.innerWidth < 650) {
       interval = setInterval(() => {
         setSlide((prev) =>
-          prev.sub === "Frontend Web Developer" ? slide2 : slide1
+          prev.sub === "Full Stack Web Developer" ? slide2 : slide1
         );
       }, 10000);
     }
@@ -108,7 +108,7 @@ const StartPage = () => {
             className="cube cursor cube-one"
             onClick={() =>
               setSlide((prev) =>
-                prev.sub === "Frontend Web Developer" ? slide2 : slide1
+                prev.sub === "Full Stack Web Developer" ? slide2 : slide1
               )
             }
           >
@@ -146,7 +146,7 @@ const StartPage = () => {
             className="cube cursor cube-two"
             onClick={() =>
               setSlide((prev) =>
-                prev.sub === "Frontend Web Developer" ? slide2 : slide1
+                prev.sub === "Full Stack Web Developer" ? slide2 : slide1
               )
             }
           >
@@ -171,7 +171,7 @@ const StartPage = () => {
       >
         <p className="capitalize satisfied">Number of satisfied clients</p>
         <p className="my-projects">My projects</p>
-        <div className="banner-center">
+        {/* <div className="banner-center">
           <p className="number">67+</p>
           <p className="describe">
             I already have a number of satisfied clients with which i have had
@@ -182,7 +182,7 @@ const StartPage = () => {
             Cooperation, communication and satisfaction with multiple companies
             around the globe
           </p>
-        </div>
+        </div> */}
       </motion.div>
       <div className="my-portfolio-services">
         <div>
@@ -204,7 +204,7 @@ const StartPage = () => {
           />
         </div>
         <motion.div className="flex space-between">
-          <motion.div
+          {/* <motion.div
             className="flex-v"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -217,8 +217,8 @@ const StartPage = () => {
               development industry for over 4 years and i have worked with a lot
               of clients. You want the best ? you`ve got the best.
             </p>
-          </motion.div>
-          <motion.div
+          </motion.div> */}
+          {/* <motion.div
             className="flex-v"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -231,8 +231,8 @@ const StartPage = () => {
               browser support , Fast Loading Speeds, Data caching, you name it.
               I've got it all
             </p>
-          </motion.div>
-          <motion.div
+          </motion.div> */}
+          {/* <motion.div
             className="flex-v"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -244,7 +244,7 @@ const StartPage = () => {
               I also work online, all you need is send me an email and i will
               respond as soon as possible.
             </p>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
       <motion.div
@@ -268,10 +268,10 @@ const StartPage = () => {
         />
         <div>
           <h2>I create Api consuming web apps</h2>
-          <h3>
+          {/* <h3>
             Data flows from multiple sources. Work with me see how you can
             represent the data in clean UI
-          </h3>
+          </h3> */}
           <div className="flex align-center">
             <div className="img-container relative">
               <img src={Arrow2} alt="Arrow" className="center-absolutely" />

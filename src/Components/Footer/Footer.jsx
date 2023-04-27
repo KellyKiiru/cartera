@@ -490,7 +490,7 @@ l-4 75 79 -41 c43 -23 86 -41 95 -41z"
               </g>
             </svg>
           </a>
-          <a href="https://github.com/AmohPrince" className="git">
+          <a href="https://github.com/KellyKiiru" className="git">
             git
           </a>
         </div>

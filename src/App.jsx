@@ -1,6 +1,6 @@
 import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
-import Heart from "./Assets/heart.png";
+// import Heart from "./Assets/heart.png";
 import Footer from "./Components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 import { useState, createContext, useEffect } from "react";
@@ -32,9 +32,9 @@ function App() {
               <Outlet />
             </FormspreeProvider>
             <Footer />
-            <div className="designed-with-love flex align-center">
+            {/* <div className="designed-with-love flex align-center">
               Designed with <img src={Heart} alt="Heart" className="heart" />
-            </div>
+            </div> */}
             {/* <Tracker /> */}
           </Context.Provider>
         </div>

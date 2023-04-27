@@ -49,11 +49,11 @@ const AboutMe = () => {
         />
       </div>
       <div className="my-picture flex space-between">
-        <p className="bluish capitalize">
+        {/* <p className="bluish capitalize">
           Individual <br /> projects for <br /> multiple global <br />
           companies
-        </p>
-        <img src={myImage} alt="This is me" className="me" />
+        </p> */}
+        {/* <img src={myImage} alt="This is me" className="me" /> */}
       </div>
       <div className="my-description flex space-between">
         <h3>About Me</h3>
@@ -63,11 +63,11 @@ const AboutMe = () => {
               My Name is Kelly Kiiru. I am full stack dev.
             </p>
             <p>
-              I derive satisfaction from identifying problems and solving them with code.
+              I derive satisfaction from identifying problems and solving them through code.
             </p>
           </div>
           <p className="capitalize bluish arrange">
-            Let's arrange a <br /> conversation <br /> about that project!
+           Looking for a dev  <br /> for a project?
           </p>
         </div>
       </div>
@@ -276,8 +276,7 @@ const AboutMe = () => {
         </div>
         <div className="tech-stack-right">
           <p className="tech-stack-main">
-            I have a tech stack in which i have gained years of experience on
-            and in which i have built most of my projects on.
+            I have experience in both front and backend web technologies with which I have done projects.
           </p>
           <div className="flex languages-tools space-between align-center">
             <div>
@@ -323,9 +322,8 @@ const AboutMe = () => {
             </div>
           </div>
           <p className="greyish">
-            * I however would like to reiterate that this are just personal
-            preferences and that nothing is set in stone.I am a flexible and
-            fast learning developer not afraid to take on any new technologies.
+            * I am currently on an upskilling mission to learn new technologies as I polish on DSA as well. 
+            As a result, depending on your organization, I am able to take up new languages quite comfortably.
           </p>
         </div>
       </div>
