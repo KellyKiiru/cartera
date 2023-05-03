@@ -3,6 +3,7 @@ import { ReadMore } from "../ReadMore";
 import "./Footer.css";
 import ArrowWhite from "../../Assets/ArrowWhite.svg";
 import { useLocation } from "react-router-dom";
+import DesktopSetup2 from "../../Assets/pexels-rubaitul-azad-13791393.jpg"
 
 const Footer = () => {
   const { pathname } = useLocation();
@@ -454,7 +455,7 @@ c49 -25 54 -68 15 -114 -43 -52 -104 -39 -104 22 0 31 37 107 52 107 5 0 22
             />
           </div>
           <img
-            src="https://images.pexels.com/photos/7238759/pexels-photo-7238759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src={DesktopSetup2}
             alt="Desktop set up"
             className="desktop-setup"
           />
