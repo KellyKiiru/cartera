@@ -432,21 +432,21 @@ c49 -25 54 -68 15 -114 -43 -52 -104 -39 -104 22 0 31 37 107 52 107 5 0 22
         </div>
       </div>
       <div className="flex footer-content space-between">
-        <div className="footer-left">
+        {/* <div className="footer-left">
           <h3>Cooperation</h3>
           <p className="bluish capitalize">
             Number of <br /> satisfied <br /> customers
           </p>
-        </div>
+        </div> */}
         <div className="flex footer-content-right">
           <div>
             <h2>
-              Available <br /> for projects
+              I am looking <br /> for challenging opportunities
             </h2>
-            <p className="bluish">
+            {/* <p className="bluish">
               I have been writing and managing projects for a few years now all
               over the globe, i have over 50+ satisfied clients.
-            </p>
+            </p> */}
             <ReadMore
               text={pathname === "/contact" ? "Home" : "Contact Now"}
               link={pathname === "/contact" ? "" : "contact"}
