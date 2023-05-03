@@ -164,14 +164,14 @@ const StartPage = () => {
           />
         </motion.div>
       </AnimatePresence>
-      <motion.div
+      {/* <motion.div
         className="white-banner flex"
         animate={whiteBannerAnimation}
         ref={ref}
       >
         <p className="capitalize satisfied">Number of satisfied clients</p>
         <p className="my-projects">My projects</p>
-        {/* <div className="banner-center">
+        <div className="banner-center">
           <p className="number">67+</p>
           <p className="describe">
             I already have a number of satisfied clients with which i have had
@@ -182,8 +182,8 @@ const StartPage = () => {
             Cooperation, communication and satisfaction with multiple companies
             around the globe
           </p>
-        </div> */}
-      </motion.div>
+        </div>
+      </motion.div> */}
       <div className="my-portfolio-services">
         <div>
           <IconRound />
@@ -192,7 +192,7 @@ const StartPage = () => {
             initial={{ y: 100 }}
             whileInView={{ y: 0 }}
           >
-            My Portfolio <br /> services
+            {/* My Portfolio <br /> services */}
           </motion.p>
           <motion.img
             src="https://images.pexels.com/photos/6340796/pexels-photo-6340796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -266,12 +266,12 @@ const StartPage = () => {
             borderRadius: "5%",
           }}
         />
-        <div>
+        {/* <div>
           <h2>I create Api consuming web apps</h2>
-          {/* <h3>
+          <h3>
             Data flows from multiple sources. Work with me see how you can
             represent the data in clean UI
-          </h3> */}
+          </h3>
           <div className="flex align-center">
             <div className="img-container relative">
               <img src={Arrow2} alt="Arrow" className="center-absolutely" />
@@ -288,7 +288,7 @@ const StartPage = () => {
             link={"portfolio"}
             Arrow={Arrow}
           />
-        </div>
+        </div> */}
       </motion.div>
     </motion.div>
   );
