@@ -3,10 +3,10 @@ import "./StartPage.css";
 import Arrow from "../../Assets/Arrow.svg";
 import ArrowWhite from "../../Assets/ArrowWhite.svg";
 import Projects from "../../Assets/Projects.png";
-import PharmaOne from "../../Assets/Pharmaone.png";
+import WhiteBoard from "../../Assets/pexels-rodnae-productions-9034867.jpg";
 import Arrow2 from "../../Assets/Arrow.png";
 import { Context } from "../../App";
-import DesktopSetup from "../../Assets/DesktopSetUp.jpg";
+import DesktopSetup from "../../Assets/pexels-paras-katwal-4218883.jpg";
 import ManLookingAtComputer from "../../Assets/ManLookingAtComputer.jpg";
 import { ReadMore } from "../ReadMore";
 import { motion, AnimatePresence, useAnimation } from "framer-motion";
@@ -252,7 +252,7 @@ const StartPage = () => {
         whileInView={() => setIsInView(true)}
       >
         <motion.img
-          src={PharmaOne}
+          src={WhiteBoard}
           alt="Pharmacy application"
           initial={{ opacity: 0 }}
           whileInView={{
