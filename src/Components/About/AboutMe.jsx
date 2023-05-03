@@ -40,7 +40,7 @@ const AboutMe = () => {
       <IconRound />
       <div className="about-me-top flex space-between">
         <h1>
-          Learn <br /> more about me
+          A little <br /> about me...
         </h1>
         <ReadMore
           Arrow={ArrowWhite}
@@ -63,11 +63,11 @@ const AboutMe = () => {
               My Name is Kelly Kiiru. I am full stack dev.
             </p>
             <p>
-              I derive satisfaction from identifying problems and solving them through code.
+              I derive satisfaction from identifying problems and solving them with code.
             </p>
           </div>
           <p className="capitalize bluish arrange">
-           Looking for a dev  <br /> for a project?
+           Looking for a dope community  <br /> to build with
           </p>
         </div>
       </div>
