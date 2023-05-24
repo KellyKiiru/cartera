@@ -60,14 +60,14 @@ const AboutMe = () => {
         <div className="flex space-between">
           <div className="bs-about-me">
             <p>
-              My Name is Kelly Kiiru. I am full stack dev.
+              I am full stack dev. 
             </p>
             <p>
-              I derive satisfaction from identifying problems and solving them with code.
+              And I derive satisfaction from noticing problems and solving them with code.
             </p>
           </div>
           <p className="capitalize bluish arrange">
-           Looking for a dope community  <br /> to build with
+           Looking for an amazing company  <br /> to work with
           </p>
         </div>
       </div>
@@ -276,7 +276,7 @@ const AboutMe = () => {
         </div>
         <div className="tech-stack-right">
           <p className="tech-stack-main">
-            I have experience in both front and backend web technologies with which I have done projects.
+            I have experience in both front and backend web technologies with which I have projects.
           </p>
           <div className="flex languages-tools space-between align-center">
             <div>
@@ -322,7 +322,7 @@ const AboutMe = () => {
             </div>
           </div>
           <p className="greyish">
-            * I am currently on an upskilling mission to learn new technologies as I polish on DSA as well. 
+            * I am currently studying Cloud Network and Security as well as DSA. 
             As a result, depending on your organization, I am able to take up new languages quite comfortably.
           </p>
         </div>
