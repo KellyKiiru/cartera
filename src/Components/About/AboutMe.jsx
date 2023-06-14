@@ -40,7 +40,7 @@ const AboutMe = () => {
       <IconRound />
       <div className="about-me-top flex space-between">
         <h1>
-          Learn <br /> more about me
+          A little <br /> about me...
         </h1>
         <ReadMore
           Arrow={ArrowWhite}
@@ -49,37 +49,25 @@ const AboutMe = () => {
         />
       </div>
       <div className="my-picture flex space-between">
-        <p className="bluish capitalize">
+        {/* <p className="bluish capitalize">
           Individual <br /> projects for <br /> multiple global <br />
           companies
-        </p>
-        <img src={myImage} alt="This is me" className="me" />
+        </p> */}
+        {/* <img src={myImage} alt="This is me" className="me" /> */}
       </div>
       <div className="my-description flex space-between">
         <h3>About Me</h3>
         <div className="flex space-between">
           <div className="bs-about-me">
             <p>
-              My Name is Amos Machora! I am a professional frontend web
-              developer.
+              I am full stack dev. 
             </p>
             <p>
-              I have over 4 years learning + working experience in developing
-              clean, maintainable, responsive and fast UI .
-            </p>
-            <p>
-              I`m a positive minded and eager to learn individual who works
-              fantastically well under pressure to produce highly credible
-              results.
-            </p>
-            <p>
-              I am very passionate about the field of programming in general
-              with little experience in backend development using Java and its
-              Spring framework but backend is not my focus as at now.
+              And I derive satisfaction from noticing problems and solving them with code.
             </p>
           </div>
           <p className="capitalize bluish arrange">
-            Let's arrange a <br /> conversation <br /> about that project!
+           Looking for an amazing company  <br /> to work with
           </p>
         </div>
       </div>
@@ -288,11 +276,11 @@ const AboutMe = () => {
         </div>
         <div className="tech-stack-right">
           <p className="tech-stack-main">
-            I have a tech stack in which i have gained years of experience on
-            and in which i have built most of my projects on.
+            I have experience in both front and backend web technologies with which I have projects.
           </p>
           <div className="flex languages-tools space-between align-center">
             <div>
+              
               <div className="flex">
                 <p>REACT JS</p>
                 <p>UI Library / Framework</p>
@@ -335,9 +323,8 @@ const AboutMe = () => {
             </div>
           </div>
           <p className="greyish">
-            * I however would like to reiterate that this are just personal
-            preferences and that nothing is set in stone.I am a flexible and
-            fast learning developer not afraid to take on any new technologies.
+            * I am currently studying Cloud Network and Security as well as DSA. 
+            As a result, depending on your organization, I am able to take up new languages quite comfortably.
           </p>
         </div>
       </div>

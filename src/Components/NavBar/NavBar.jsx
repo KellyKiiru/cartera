@@ -116,16 +116,16 @@ function Socials({ context }) {
       initial="initial"
       animate="animate"
     >
-      <a
-        href="https://www.codewars.com/users/amosmachora"
+      {/* <a
+        href="https://leetcode.com/KellyKiiru/"
         target="_blank"
         rel="noopener noreferrer"
-        className="codewars"
+        className="leetcode"
       >
         C
-      </a>
-      <a
-        href="https://www.frontendmentor.io/profile/AmohPrince"
+      </a> */}
+      {/* <a
+        href=""
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -145,9 +145,9 @@ function Socials({ context }) {
             fill="#ffffff"
           />
         </svg>
-      </a>
+      </a> */}
       <a
-        href="https://github.com/amosmachora"
+        href="https://github.com/KellyKiiru/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -169,7 +169,7 @@ function Socials({ context }) {
       </a>
       <a
         target="_blank"
-        href="https://www.linkedin.com/in/amos-machora"
+        href="https://www.linkedin.com/in/kelly-kiiru-15a852231/"
         rel="noopener noreferrer"
       >
         <svg
@@ -184,7 +184,7 @@ function Socials({ context }) {
       </a>
       <a
         target="_blank"
-        href="https://stackoverflow.com/users/16018684/amos-machora"
+        href="https://stackoverflow.com/users/19756696/kiiru-ryan"
         rel="noopener noreferrer"
       >
         <svg
@@ -204,7 +204,7 @@ function Socials({ context }) {
         </svg>
       </a>
       <a
-        href="https://medium.com/@amosmachora"
+        href="https://medium.com/@infowithkiiru"
         target="_blank"
         rel="noopener noreferrer"
       >

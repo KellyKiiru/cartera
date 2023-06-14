@@ -3,10 +3,10 @@ import "./StartPage.css";
 import Arrow from "../../Assets/Arrow.svg";
 import ArrowWhite from "../../Assets/ArrowWhite.svg";
 import Projects from "../../Assets/Projects.png";
-import PharmaOne from "../../Assets/Pharmaone.png";
+import WhiteBoard from "../../Assets/pexels-rodnae-productions-9034867.jpg";
 import Arrow2 from "../../Assets/Arrow.png";
 import { Context } from "../../App";
-import DesktopSetup from "../../Assets/DesktopSetUp.jpg";
+import DesktopSetup from "../../Assets/pexels-paras-katwal-4218883.jpg";
 import ManLookingAtComputer from "../../Assets/ManLookingAtComputer.jpg";
 import { ReadMore } from "../ReadMore";
 import { motion, AnimatePresence, useAnimation } from "framer-motion";
@@ -15,9 +15,9 @@ import { pageVariantsIn } from "../../Framer";
 
 const StartPage = () => {
   const [slide, setSlide] = useState({
-    sub: "Frontend Web Developer",
-    h1: "I am a",
-    desc: "So you are looking for a web developer . I am an experienced web developer for all your development...",
+    sub: "Full Stack Web Dev",
+    h1: "Hi there! I am Kelly, a",
+    // desc: "So you are looking for a web developer . I am an experienced web developer for all your development...",
     linkTo: "about-me",
     img: DesktopSetup,
   });
@@ -28,7 +28,7 @@ const StartPage = () => {
   const whiteBannerAnimation = useAnimation();
 
   const slide1 = {
-    sub: "Frontend Web Developer",
+    sub: "Full Stack Web Dev",
     h1: "I am a",
     desc: "So you are looking for a web developer . I am an experienced web developer for all your development...",
     linkTo: "about-me",
@@ -36,16 +36,16 @@ const StartPage = () => {
   };
 
   const slide2 = {
-    sub: "Web Application Developer",
+    sub:"Data Science enthusiast",
     h1: "Im also a",
-    desc: "Web Applications should be fast, scalable and maintainable. Want to know how ?...",
+    desc: "Currently self coaching on DS and relevant technologies",
     linkTo: "portfolio",
     img: ManLookingAtComputer,
   };
 
   useEffect(() => {
     setSmallScreen(false);
-    document.title = `Amos™ Freelancer`;
+    document.title = `Kelly™ dev`;
     window.scrollTo(0, 0);
   }, [setSmallScreen]);
 
@@ -87,7 +87,7 @@ const StartPage = () => {
     if (window.innerWidth < 650) {
       interval = setInterval(() => {
         setSlide((prev) =>
-          prev.sub === "Frontend Web Developer" ? slide2 : slide1
+          prev.sub === "Full Stack Web Developer" ? slide2 : slide1
         );
       }, 10000);
     }
@@ -108,7 +108,7 @@ const StartPage = () => {
             className="cube cursor cube-one"
             onClick={() =>
               setSlide((prev) =>
-                prev.sub === "Frontend Web Developer" ? slide2 : slide1
+                prev.sub === "Full Stack Web Developer" ? slide2 : slide1
               )
             }
           >
@@ -146,7 +146,7 @@ const StartPage = () => {
             className="cube cursor cube-two"
             onClick={() =>
               setSlide((prev) =>
-                prev.sub === "Frontend Web Developer" ? slide2 : slide1
+                prev.sub === "Full Stack Web Developer" ? slide2 : slide1
               )
             }
           >
@@ -164,7 +164,7 @@ const StartPage = () => {
           />
         </motion.div>
       </AnimatePresence>
-      <motion.div
+      {/* <motion.div
         className="white-banner flex"
         animate={whiteBannerAnimation}
         ref={ref}
@@ -183,7 +183,7 @@ const StartPage = () => {
             around the globe
           </p>
         </div>
-      </motion.div>
+      </motion.div> */}
       <div className="my-portfolio-services">
         <div>
           <IconRound />
@@ -192,7 +192,7 @@ const StartPage = () => {
             initial={{ y: 100 }}
             whileInView={{ y: 0 }}
           >
-            My Portfolio <br /> services
+            {/* My Portfolio <br /> services */}
           </motion.p>
           <motion.img
             src="https://images.pexels.com/photos/6340796/pexels-photo-6340796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -204,7 +204,7 @@ const StartPage = () => {
           />
         </div>
         <motion.div className="flex space-between">
-          <motion.div
+          {/* <motion.div
             className="flex-v"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -217,8 +217,8 @@ const StartPage = () => {
               development industry for over 4 years and i have worked with a lot
               of clients. You want the best ? you`ve got the best.
             </p>
-          </motion.div>
-          <motion.div
+          </motion.div> */}
+          {/* <motion.div
             className="flex-v"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -231,8 +231,8 @@ const StartPage = () => {
               browser support , Fast Loading Speeds, Data caching, you name it.
               I've got it all
             </p>
-          </motion.div>
-          <motion.div
+          </motion.div> */}
+          {/* <motion.div
             className="flex-v"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -244,7 +244,7 @@ const StartPage = () => {
               I also work online, all you need is send me an email and i will
               respond as soon as possible.
             </p>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
       <motion.div
@@ -252,7 +252,7 @@ const StartPage = () => {
         whileInView={() => setIsInView(true)}
       >
         <motion.img
-          src={PharmaOne}
+          src={WhiteBoard}
           alt="Pharmacy application"
           initial={{ opacity: 0 }}
           whileInView={{
@@ -266,7 +266,7 @@ const StartPage = () => {
             borderRadius: "5%",
           }}
         />
-        <div>
+        {/* <div>
           <h2>I create Api consuming web apps</h2>
           <h3>
             Data flows from multiple sources. Work with me see how you can
@@ -288,7 +288,7 @@ const StartPage = () => {
             link={"portfolio"}
             Arrow={Arrow}
           />
-        </div>
+        </div> */}
       </motion.div>
     </motion.div>
   );
