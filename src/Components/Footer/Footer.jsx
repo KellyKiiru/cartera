@@ -6,6 +6,10 @@ import { useLocation } from "react-router-dom";
 import DesktopSetup2 from "../../Assets/pexels-rubaitul-azad-13791393.jpg"
 
 const Footer = () => {
+
+  // Get the current year
+  const currentYear = new Date().getFullYear();
+   
   const { pathname } = useLocation();
   return (
     <footer>
@@ -462,7 +466,7 @@ c49 -25 54 -68 15 -114 -43 -52 -104 -39 -104 22 0 31 37 107 52 107 5 0 22
         </div>
       </div>
       <div className="footer-bottom flex space-between">
-        <p className="bluish"> © 2023 Kelly. All rights reversed</p>
+        <p className="bluish"> © <span>{currentYear}</span> Kelly. All rights reversed</p>
         <div className="flex">
           <a href="mailto:infowithkiiru@gmail.com">
             <svg
