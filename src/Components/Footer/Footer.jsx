@@ -8,7 +8,9 @@ import DesktopSetup2 from "../../Assets/pexels-rubaitul-azad-13791393.jpg"
 const Footer = () => {
 
   // Get the current year
-  const currentYear = new Date().getFullYear();
+  const CurrentYear = () => {
+  return <span>{new Date().getFullYear()}</span>;
+  };
    
   const { pathname } = useLocation();
   return (
